@@ -29,6 +29,7 @@ if [[ "$user_input" == "yes" ]]; then
     final_confirmation=$(echo "$final_confirmation" | tr '[:upper:]' '[:lower:]')
     if [[ "$final_confirmation" == "yes" ]]; then
         rm -rf unproxmox.sh
+        echo
         echo -e "-------------------------------------------------"
         echo -e "\033[1;33mRemoving Proxmox local-lvm\033[0m"
         echo -e "-------------------------------------------------"
