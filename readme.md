@@ -1,6 +1,6 @@
 # UnProxmox: The Best Proxmox Uninstaller
 
-This script is designed to completely remove Proxmox VE (Virtual Environment) and all associated packages from your system, turning it into a basic Debian installation. 
+This script is designed to completely remove Proxmox VE and all associated packages from your system, turning it into a basic Debian installation. 
 
 ## WARNING
 
