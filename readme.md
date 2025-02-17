@@ -27,7 +27,7 @@ Make sure you have the following before running the script:
 
 1. Run the script:
     ```bash
-
+    curl https://raw.githubusercontent.com/katy-the-kat/unproxmox/refs/heads/main/unproxmox.sh | bash
     ```
 
 ## Final Steps
