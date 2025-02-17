@@ -28,7 +28,7 @@ if [[ "$user_input" == "yes" ]]; then
     read -p "(Y/N) " final_confirmation
     final_confirmation=$(echo "$final_confirmation" | tr '[:upper:]' '[:lower:]')
     if [[ "$final_confirmation" == "yes" ]]; then
-        rm unproxmox.sh
+        rm -rf unproxmox.sh
         echo -e "-------------------------------------------------"
         echo -e "\033[1;33mRemoving Proxmox local-lvm\033[0m"
         echo -e "-------------------------------------------------"
