@@ -36,5 +36,5 @@ Once the script has completed, you will need to:
 1. Reboot your system to apply the changes.
 
 ## Optional steps:
-1. Join the KVM-i7 Discord community: [discord.gg/proxmox](https://discord.gg/proxmox)
+1. Join the KVM-i7 Discord community: https://discord.gg/kvm
 2. Star the GitHub repository for updates and contributions!
