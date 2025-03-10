@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+apt-get update
 apt-get install figlet -y
 clear
 figlet -c -f slant "UnProxmox"
