@@ -67,7 +67,7 @@ if [[ "$user_input" == "yes" ]]; then
         echo -e "-------------------------------------------------"
         echo "Dont forget to"
         echo -e "-------------------------------------------------"
-        echo "Join the discord server: discord.gg/kvm"
+        echo "Join the discord server: discord.gg/t3vps"
         echo "Star the github repo"
         echo -e "-------------------------------------------------"
     else
