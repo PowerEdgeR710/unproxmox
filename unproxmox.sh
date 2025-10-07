@@ -57,8 +57,10 @@ if [[ "$user_input" == "yes" ]]; then
         echo -e "\033[1;32mStep 4 Complete: Linux kernel installation successful.\033[0m"
         echo -e "\033[1;33mStep 5 Cleaning Up Proxmox Repositories...\033[0m"
         echo -e "-------------------------------------------------"
+        rm -rf /etc/apt/sources.list.d/proxmox.sources*
         rm -rf /etc/apt/sources.list.d/pve*
         echo Removed Proxmox Repos
+        rm -f /etc/apt/sources.list.d/ceph.sources
         rm -f /etc/apt/sources.list.d/ceph.list
         echo Removed Ceph Repos
         echo -e "-------------------------------------------------"
