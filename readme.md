@@ -27,7 +27,7 @@ Make sure you have the following before running the script:
 
 1. Run the script:
     ```bash
-    wget https://raw.githubusercontent.com/katy-the-kat/unproxmox/refs/heads/main/unproxmox.sh && bash unproxmox.sh
+    wget https://raw.githubusercontent.com/poweredger710/unproxmox/refs/heads/main/unproxmox.sh && bash unproxmox.sh
     ```
 
 ## Final Steps
@@ -36,5 +36,4 @@ Once the script has completed, you will need to:
 1. Reboot your system to apply the changes.
 
 ## Optional steps:
-1. Join the E5-Compute Discord community: https://discord.gg/compute
-2. Star the GitHub repository for updates and contributions!
+1. Star the GitHub repository for updates and contributions!
